@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flappy Bird</title>
+		<link rel="stylesheet" type="text/css" href="flappybird.css" />
+	</head>
+	<body>
+		<div id="content-container">
+			<div id="score-container">
+				<span>Score: </span><span id="scoreEl">0</span>
+			</div>
+			<div id="game-ui">
+				<div id="game-button">
+					<button id="startBtn">Start Game</button>
+					<!-- <button id="resetBtn">Restart Game</button> -->
+				</div>
+			</div>
+			<div id="game-container">
+				<!-- <img src="images/startGame.png" img id="start" onclick="startGame();" /> -->
+				<!-- According to MDN it is perferred to set the height and width directly here to prevent weird things happening -->
+				<canvas id="board" width="480" height="640"></canvas>
+			</div>
+		</div>
+	</body>
+	<script src="flappybird.js"></script>
+</html>
