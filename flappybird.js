@@ -75,7 +75,7 @@ function startGame() {
 		ctx.drawImage(obstacleOne, obstacle[i].x, obstacle[i].y);
 		// ctx.drawImage(obstacleTwo, 100, 0 + constant); //Drawing the south obstacle, the pY is the obstacle height plus the "safe space"
 		ctx.drawImage(obstacleTwo, obstacle[i].x, obstacle[i].y + surface);
-		obstacle[i].x -= 5; //moves the obstacle to the left
+		obstacle[i].x -= 2.5; //moves the obstacle to the left
 		// if this obstacle reaches that width push a new obstacle in the array, higher numbers makes the game more difficult as it decreases the space before the next obstacle
 		if (obstacle[i].x == 225) {
 			obstacle.push({
