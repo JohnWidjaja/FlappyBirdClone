@@ -77,7 +77,7 @@ function startGame() {
 		ctx.drawImage(obstacleTwo, obstacle[i].x, obstacle[i].y + surface);
 		obstacle[i].x--; //moves the obstacle to the left
 		// if this obstacle reaches that width push a new obstacle in the array, higher numbers makes the game more difficult as it decreases the space before the next obstacle
-		if (obstacle[i].x == 275) {
+		if (obstacle[i].x == 200) {
 			obstacle.push({
 				x: canvas.width,
 				// uses the math.foor/random function to generate a random height for the obstacle
