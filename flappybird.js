@@ -37,7 +37,7 @@ const scoreEl = document.querySelector("#scoreEl");
 let score = 0;
 
 // Set spaceSpace the the width of the safe area to go through, the surface is the safe space plus the obstacle height = surface of the obstacles
-let safeSpace = 400;
+let safeSpace = 300;
 let surface = obstacleOne.height + safeSpace;
 
 // Starting player position
