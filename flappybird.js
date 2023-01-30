@@ -46,7 +46,7 @@ let pY = 200;
 
 // variable of gravity which always pushes the player down unless key is pressed
 
-let gravity = 0.85;
+let gravity = 1;
 
 // key to press to change player height
 document.addEventListener("click", playerUp);
