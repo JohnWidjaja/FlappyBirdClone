@@ -81,7 +81,9 @@ function startGame() {
 			obstacle.push({
 				x: canvas.width,
 				// uses the math.foor/random function to generate a random height for the obstacle
-				y: Math.floor(Math.random() * obstacleOne.height) - obstacleOne.height,
+				y:
+					Math.floor(Math.random() * (obstacleOne.height + safeSpace)) -
+					obstacleOne.height,
 			});
 		}
 		// Rules
