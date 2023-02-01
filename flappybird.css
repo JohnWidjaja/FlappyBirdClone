@@ -35,6 +35,11 @@
 	text-align: center;
 }
 
+#board {
+	width: 100%;
+	height: auto;
+}
+
 #game-ui {
 	background-color: rgba(121, 115, 115, 0.7);
 	position: fixed;

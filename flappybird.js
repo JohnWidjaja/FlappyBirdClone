@@ -5,6 +5,11 @@
 
 const canvas = document.querySelector("#board");
 
+window.addEventListener("resize", () => {
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
+});
+
 // Gives access to the canvas to "draw/create elements"
 const ctx = canvas.getContext("2d");
 
